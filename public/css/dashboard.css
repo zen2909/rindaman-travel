@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Warna abu-abu muda */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-booking {
+    background-color: #3498db; /* Warna oranye */
+    color: #fff;
+    border: none;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 1.2em;
+}
+
+.destination-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Warna abu-abu muda */
+}
+
+.destination-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.destination-item img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination-item:hover img {
+    transform: scale(1.1);
+}
+
+.parallax-section {
+    background-image: url('/images/perahu.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.parallax-section h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Warna abu-abu muda */
+}
+
+.cta-section h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #5e4dae; /* Warna ungu tua */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.review-section {
+    background-color: #f8f9fa; /* Warna abu-abu muda */
+    padding: 50px 0;
+}
+
+.review-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.review-item img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+/* Gaya untuk bagian peta */
+.map-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  /* Gaya untuk judul "Lokasi Kami" */
+  .map-section h2 {
+    color: #333; /* Warna teks */
+    font-size: 2em; /* Ukuran font */
+    font-weight: bold; /* Ketebalan font */
+    margin-bottom: 20px; /* Jarak bawah dari elemen di atasnya */
+    text-align: center;
+  }
+  
+  .map-section h2:hover {
+    color: #0056b3;
+  }
+  
+  /* Gaya untuk peta */
+  #google-map {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

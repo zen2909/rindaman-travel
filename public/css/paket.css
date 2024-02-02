@@ -1,0 +1,64 @@
+body { 
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Pastikan kontennya memiliki setidaknya tinggi 100% dari viewport */
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #343a40;
+    color: white;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+}
+
+  .jumbotron {
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-bottom: 0;
+    padding: 2rem 1rem;
+  }
+
+  .card {
+    transition: transform 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+  }
+
+    .list-group {
+    margin-bottom: 0; /* Optional: Menghilangkan margin bawah */
+    }
+
+    .list-group-item {
+    background-color: rgba(255, 255, 255, 0.7); /* Memberikan transparansi pada setiap item */
+    border: none; /* Optional: Menghilangkan border */
+    border-radius: 0; /* Optional: Menghilangkan sudut border */
+    }
+  .card-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #343a40;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }

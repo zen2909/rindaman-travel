@@ -1,0 +1,47 @@
+body { 
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Pastikan kontennya memiliki setidaknya tinggi 100% dari viewport */
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #343a40;
+    color: white;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+}
+  .social-media-icons {
+    font-size: 2em;
+  }
+
+  .jumbotron {
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-bottom: 0;
+    padding: 2rem 1rem;
+  }
+  .contact-details {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparansi untuk form */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 50px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+    height: 50px;
+    border-radius: 50%; /* Agar ikon memiliki bentuk bulat */
+}
